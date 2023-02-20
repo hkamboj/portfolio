@@ -16,6 +16,7 @@ initialize(passport);
 const app = express();
 var express = require('express');
 const dotenv = require("dotenv");
+process.env.MONGO_URL = "mongodb+srv://ektavkamboj:Ektav2315@cluster0.8mfdrhz.mongodb.net/test";
 
 dotenv.config();
 // view engine
